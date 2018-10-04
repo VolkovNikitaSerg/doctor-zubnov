@@ -1,0 +1,92 @@
+/* GLOBAL SECTION */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+main {
+    background: url('../img/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* NAVBAR SECTION */
+.navbar {
+    font-weight: 500;
+    background: #ffffff;
+    box-shadow: 2px 2px 5px #3292a6;
+}
+
+.navbar .logo {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* HEADER SECTION */
+#header-section {
+    background: url('../img/back_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 650px;
+    color: white;
+}
+
+#header-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 650px;
+    background: rgba(50, 146, 166, 0.9);
+}
+
+#header-section .header-inner {
+    padding-top: 170px;
+}
+
+/* CONTACTS SECTION */
+#contacts-section #map, #contacts-section .card {
+    width: 100%;
+    height: 318px;
+    margin-bottom: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* REVIEWS SECTION */
+#reviews-section .card {
+    height: 300px;
+    background: #ddedee;
+}
+
+#reviews-section a {
+    margin: auto;
+    text-align: center;
+}
+
+/* MEDIA QUIRIES */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 23px;
+    }
+    #reviews-section .card {
+        height: 90%;
+        margin-bottom: 10%;
+    }
+    #contacts-section #map, #contacts-section .card {
+        height: 90%;
+        margin-bottom: 10%;
+    }
+}
