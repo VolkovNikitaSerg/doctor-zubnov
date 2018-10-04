@@ -67,7 +67,7 @@
 			<!-- STAFF SECTION -->
 			<section id="staff-section">
 				<div class="container">
-					<div class="row py-3">
+					<div class="row py-5">
 						<div class="col-lg-12 text-center py-5">
 							<h1 class="pb-3 border-bottom border-dark">Наши лучшие доктора</h1>
 						</div>
@@ -91,7 +91,7 @@
 			<!-- REVIEWS SECTION -->
 			<section id="reviews-section">
 				<div class="container">
-					<div class="row py-4">
+					<div class="row py-5">
 						<div class="col-lg-12 text-center py-5">
 							<h1 class="pb-3 border-bottom border-dark">Что о нас говорят</h1>
 						</div>
@@ -126,7 +126,7 @@
 			<!-- CONTACTS SECTION -->
 			<section id="contacts-section">
 				<div class="container">
-					<div class="row py-4">
+					<div class="row py-5">
 						<div class="col-lg-12 text-center py-5">
 							<h1 class="pb-3 border-bottom border-dark">Как с нами связаться</h1>
 						</div>
@@ -182,32 +182,7 @@
 		crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
 		crossorigin="anonymous"></script>
-
-		<script>
-
-			// Get the current year for the copyright
-			$('#year').text(new Date().getFullYear());
-
-			// Init Scrollspy
-			$('body').scrollspy({target: '#main-nav'});
-
-			// Smooth Scrolling
-			$("#main-nav a").on('click', function (event) {
-				if (this.hash !== "") {
-					event.preventDefault();
-
-					const hash = this.hash;
-
-					$('html, body').animate({
-					scrollTop: $(hash).offset().top
-					}, 800, function () {
-
-					window.location.hash = hash;
-					});
-				}
-			});
-
-		</script>
+		<script src="./javascript/script.js"></script>
 
 	</body>
 
