@@ -65,7 +65,7 @@ main {
 /* REVIEWS SECTION */
 #reviews-section .card {
     height: 300px;
-    background: #ddedee;
+    background: #fffefe;
 }
 
 #reviews-section a {
@@ -79,14 +79,21 @@ main {
         font-size: 30px;
     }
     h3 {
-        font-size: 23px;
+        font-size: 22px;
+    }
+    #staff-section p {
+        font-size: 14px;
     }
     #reviews-section .card {
         height: 90%;
         margin-bottom: 10%;
+        font-size: 14px;
     }
     #contacts-section #map, #contacts-section .card {
         height: 90%;
         margin-bottom: 10%;
+    }
+    table td {
+        font-size: 13px;
     }
 }
