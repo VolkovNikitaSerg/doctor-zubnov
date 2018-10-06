@@ -1,0 +1,22 @@
+{
+  "name": "volkovnikita",
+  "version": "1.0.0",
+  "description": "web site doctor zubnov",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VolkovNikitaSerg/doctor-zubnov.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VolkovNikitaSerg/doctor-zubnov/issues"
+  },
+  "homepage": "https://github.com/VolkovNikitaSerg/doctor-zubnov",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
