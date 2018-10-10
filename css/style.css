@@ -16,6 +16,14 @@ main {
     background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.button-image {
+    width: 130px;
+    margin: 10px;
+}
+
+.modal-image {
+    width: 100%;
+}
 
 /* NAVBAR SECTION */
 .navbar {
@@ -73,12 +81,18 @@ main {
 }
 
 /* MEDIA QUIRIES */
-@media (max-width: 767px) {
+@media (max-width: 772px) {
     h1 {
         font-size: 30px;
     }
+    h2 {
+        font-size: 25px;
+    }
     h3 {
         font-size: 22px;
+    }
+    h4 {
+        font-size: 18px;
     }
     table td, table th  {
         font-size: 12px;
@@ -93,6 +107,10 @@ main {
         height: 90%;
         margin-bottom: 10%;
     }
+    .button-image {
+        width: 120px;
+        margin: 10px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -100,5 +118,12 @@ main {
         height: 90%;
         margin-bottom: 10%;
         font-size: 14px;
+    }
+}
+
+@media (max-width: 576px ) {
+    .button-image {
+        width: 93px;
+        margin: 5px;
     }
 }
