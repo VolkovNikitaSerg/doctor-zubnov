@@ -10,6 +10,10 @@ h1 {
     font-size: 40px;
 }
 
+.lead {
+    font-size: 16px;
+}
+
 main {
     background: #E0EAFC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
@@ -17,7 +21,7 @@ main {
 }
 
 .button-image {
-    width: 130px;
+    width: 136px;
     margin: 10px;
 }
 
@@ -123,7 +127,7 @@ main {
 
 @media (max-width: 576px ) {
     .button-image {
-        width: 93px;
-        margin: 5px;
+        width: 68px;
+        margin: 1px;
     }
 }
