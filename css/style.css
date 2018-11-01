@@ -1,4 +1,9 @@
 /* GLOBAL SECTION */
+html {
+    font-size: 16px;
+}
+
+
 body {
     font-family: 'Montserrat', sans-serif;
     color: #000000;
@@ -7,11 +12,11 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .lead {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 main {
@@ -21,8 +26,7 @@ main {
 }
 
 .button-image {
-    width: 136px;
-    margin: 10px;
+    height: 11rem;
 }
 
 .modal-image {
@@ -37,10 +41,8 @@ main {
 }
 
 .navbar .logo {
-    width: 50px;
-    height: 50px;
+    height: 3rem;
 }
-
 
 /* HEADER SECTION */
 #header-section {
@@ -48,7 +50,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 650px;
+    min-height: 41rem;
     color: white;
 }
 
@@ -57,77 +59,57 @@ main {
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 650px;
+    min-height: 41rem;
     background: rgba(50, 146, 166, 0.9);
 }
 
 #header-section .header-inner {
-    padding-top: 170px;
+    padding-top: 10rem;
 }
 
 /* CONTACTS SECTION */
 #contacts-section #map, #contacts-section .card {
     width: 100%;
-    height: 318px;
-    margin-bottom: 25px;
+    height: 20rem;
+    margin-bottom: 1rem;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* REVIEWS SECTION */
 #reviews-section .card {
-    height: 300px;
+    height: 20rem;
     background: #f7f7f7;
 }
 
-#reviews-section a {
+#reviews-section .btn {
     margin: auto;
     text-align: center;
 }
 
 /* MEDIA QUIRIES */
-@media (max-width: 772px) {
-    h1 {
-        font-size: 30px;
-    }
-    h2 {
-        font-size: 25px;
-    }
-    h3 {
-        font-size: 22px;
-    }
-    h4 {
-        font-size: 18px;
-    }
-    table td, table th  {
-        font-size: 12px;
-    }
-    .navbar .navbar-brand{
-        font-size: 17px;
-    }
-    #staff-section p {
-        font-size: 13px;
-    }
-    #contacts-section #map, #contacts-section .card {
-        height: 90%;
-        margin-bottom: 10%;
-    }
-    .button-image {
-        width: 120px;
-        margin: 10px;
-    }
-}
-
-@media (max-width: 992px) {
-    #reviews-section .card {
-        height: 90%;
-        margin-bottom: 10%;
+@media (max-width: 760px) {
+    html {
         font-size: 14px;
     }
+    .button-image {
+        height: 6rem;
+    }
 }
 
-@media (max-width: 576px ) {
+@media (max-width: 440px) {
+    html {
+        font-size: 11px;
+    }
     .button-image {
-        width: 68px;
-        margin: 1px;
+        height: 5.2rem;
+    }
+}
+
+@media (min-width:761px) and (max-width: 980px) {
+    html {
+        font-size: 15px;
+    }
+    .button-image {
+        height: 8rem;
     }
 }
