@@ -20,52 +20,43 @@
 <body data-spy="scroll" data-target="#main-nav" id="home">
 
 	<!-- NAVBAR -->
-	<nav class="navbar navbar-expand-sm navbar-light fixed-top py-2" id="main-nav">
-		<div class="container">
-			<a href="#" class="navbar-brand">
-				<img class="logo" src="./img/logo.svg" alt="logo">
-				Доктор ЗуБноВ
-			</a>
-			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarCollapse">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a href="#staff-section" class="nav-link">Персонал</a>
-					</li>
-					<li class="nav-item">
-						<a href="#services-section" class="nav-link">Услуги</a>
-					</li>
-					<li class="nav-item">
-						<a href="#reviews-section" class="nav-link">Отзывы</a>
-					</li>
-					<li class="nav-item">
-						<a href="#contacts-section" class="nav-link">Контакты</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
+	<nav id="navbar">
+		<a href="#">
+			<img class="logo" src="./img/logo.svg" alt="logo">
+			Доктор ЗуБноВ
+		</a>
+        <ul>
+            <li><a href="#staff-section">Персонал</a></li>
+            <li><a href="#services-section">Услуги</a></li>
+            <li><a href="#reviews-section">Отзывы</a></li>
+            <li><a href="#contacts-section">Контакты</a></li>
+        </ul>
+    </nav>
 
 	<!-- HEADER SECTION -->
 	<header id="header-section">
+		<div id="special">
+			<button class="btn ml-auto m-3">
+				<i class="fas fa-eye fa-2x"></i>
+			</button>
+		</div>
 		<div class="overlay">
-			<div class="header-inner container">
-				<div class="row">
-					<div class="col text-center py-5">
-						<h1>
-							Терапевтическая и ортопедическая стоматология <br> Доктор ЗуБноВ
-						</h1>
-						<p class="lead pt-3 border-top border-white">Мы рады, когда Вы улыбаетесь!</p>
+			<div class="header-inner">
+				<div class="container">
+					<div class="row">
+						<div class="col text-center py-5">
+							<h1>
+								Терапевтическая и ортопедическая стоматология <br> Доктор ЗуБноВ
+							</h1>
+							<p class="lead pt-3 border-top border-white">Мы рады, когда Вы улыбаетесь!</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
 
-	<main>
+	<main class="pb-1">
 
 		<!-- STAFF SECTION -->
 		<section id="staff-section">
@@ -975,7 +966,7 @@
 					</div>
 				</div>
 				<div class="d-flex justify-content-center">
-					<a class="btn btn-outline-primary btn-lg" target="_blank" href="https://krasnoyarsk.flamp.ru/firm/doktor_zubnov_stomatologicheskijj_kabinet_doktora_bubnovojj_s_a-985690699584674"
+					<a id = "more-reviews" class="btn btn-outline-primary btn-lg" target="_blank" href="https://krasnoyarsk.flamp.ru/firm/doktor_zubnov_stomatologicheskijj_kabinet_doktora_bubnovojj_s_a-985690699584674"
 					 role="button">Больше отзывов</a>
 				</div>
 			</div>
@@ -1023,7 +1014,7 @@
 					</div>
 				</div>
 
-				<div class="d-flex justify-content-around pb-3">
+				<div class="d-flex justify-content-center">
 					<div>
 						<img class="button-image" src="./img/001_1.jpg" type="button" data-toggle="modal" data-target="#modal-7">
 						<!-- The Modal -->
