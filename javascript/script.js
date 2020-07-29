@@ -35,7 +35,7 @@ special.addEventListener('click', function() {
         document.querySelectorAll(".lead, .card-text, td").forEach(function(element) {
             element.style.fontWeight = "500";
         });
-        document.querySelector("#header-section .overlay").style.backgroundColor = "rgba(0, 0, 0, 0.97)";
+        document.querySelector("#header-section .overlay").style.backgroundColor = "rgba(0, 0, 0, 1)";
         document.querySelector("main").style.background = "#fafafa";
         document.querySelector("#navbar").style.boxShadow = "none";
         document.querySelector("#navbar").style.borderBottom = "2px solid #000000";
