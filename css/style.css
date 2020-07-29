@@ -202,7 +202,7 @@ main {
     #contacts-section #map, #contacts-section .card {
         height: 22rem;
     }
-    #contacts-table {
+    table {
         font-size: 0.8rem;
     }
     .card-text {
@@ -213,6 +213,9 @@ main {
 @media screen and (max-width: 360px) {
     #contacts-section #map, #contacts-section .card {
         height: 20rem;
+    }
+    table {
+        font-size: 0.75rem;
     }
     #contacts-table {
         font-size: 0.6rem;
