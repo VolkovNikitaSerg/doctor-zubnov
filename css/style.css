@@ -203,7 +203,7 @@ main {
         height: 22rem;
     }
     table {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
     }
     .card-text {
         font-size: 0.75rem;
@@ -213,9 +213,6 @@ main {
 @media screen and (max-width: 360px) {
     #contacts-section #map, #contacts-section .card {
         height: 20rem;
-    }
-    table {
-        font-size: 0.75rem;
     }
     #contacts-table {
         font-size: 0.65rem;
@@ -229,5 +226,11 @@ main {
     #navbar ul li a {
         font-size: 0.65rem;
         padding: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    table {
+        font-size: 0.65rem;
     }
 }
