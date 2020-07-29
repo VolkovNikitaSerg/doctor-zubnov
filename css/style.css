@@ -190,7 +190,7 @@ main {
     #contacts-section #map, #contacts-section .card {
         height: 23rem;
     }
-    #contacts-table {
+    table {
         font-size: 0.9rem;
     }
     .card-text {
