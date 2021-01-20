@@ -45,6 +45,17 @@ main {
     font-weight: 600;
 }
 
+.info {
+    display: inline-block;
+    margin: 0;
+    padding: 0.25rem;
+    color: white;
+    font-weight: 500;
+    background: #727272;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
 /* Special */
 #special {
     width: 100%;
