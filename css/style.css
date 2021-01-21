@@ -49,11 +49,8 @@ main {
     display: inline-block;
     margin: 0;
     padding: 0.25rem;
-    color: white;
     font-weight: 500;
-    background: #5e5e5e;
-    border-radius: 10px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 /* Special */
