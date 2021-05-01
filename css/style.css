@@ -53,6 +53,13 @@ main {
     font-size: 15px;
 }
 
+#service-images {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
 /* Special */
 #special {
     width: 100%;
@@ -216,6 +223,17 @@ main {
     }
     .card-text {
         font-size: 0.9rem;
+    }
+
+    #service-images {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #service-images .button-image {
+        width: 80px;
+        margin: 0;
+        margin: 3px;
     }
 }
 
